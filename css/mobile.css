@@ -52,7 +52,10 @@
         cursor: pointer;
     }
 
-   
+    .top-header-nav {
+        display: none;
+    }
+    
     .top-header-nav ul, ol {
         list-style-type: none;
         text-align: center;
