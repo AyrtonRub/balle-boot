@@ -1,0 +1,33 @@
+@media screen and (min-width: 45em) {
+
+    body {
+        background-image: linear-gradient(68deg, #2F2325 16.62%, #8E5D52 85.61%);
+    }
+
+    .top-header-img {
+        display: block;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+
+    .top-header-nav li {
+        display: inline-block;
+    }
+
+    .top-header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .container-balleBoot {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-balleBoot-text {
+        text-align: left;
+    }
+}

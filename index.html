@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balle Bot</title>
     <link rel="stylesheet" href="icomoon (2)/style.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/middle.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header class="top-header">
-        <div class="maxWidth">
+        <div class="maxWidth top-header-container">
             <div class="top-header-img">
                 <img src="imagens/icon.svg" alt="icon-header">
                 <span class="icon-menu"  onclick="clickMenu()"></span>
@@ -73,6 +74,14 @@
                 menu.style.display = 'none'
             } else {
                 menu.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 720) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
             }
         }
     </script>
