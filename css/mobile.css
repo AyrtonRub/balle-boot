@@ -30,7 +30,7 @@
     }
     
     .maxWidth {
-        max-width: 120rem ;
+        max-width: 120em ;
         width: 90%;
         margin: 0 auto;
     }
@@ -51,7 +51,7 @@
         color: var(--colorPadrao);
         cursor: pointer;
     }
-    
+
     .top-header-nav {
         display: block;
     }
