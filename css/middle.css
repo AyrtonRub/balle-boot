@@ -30,4 +30,8 @@
     .container-balleBoot-text {
         text-align: left;
     }
+
+    .container-balleBoot-title {
+        font-size: 4.6rem;
+    }
 }
