@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@media screen and (max-width:480px) {
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+    
+    :root {
+        --fontTitles:'Righteous' 'sans-serif';
+        --fontPadrao: 'Sarala', 'sans-serif';
+        --colorPadrao: #ECD6C4;
+        --colorSecondary: #2F2325;
+    }
+    
+    html {
+        font-size: 62.5%;
+        
+    }
+    
+    body {
+        font-size: 1.6rem;
+        background-color: #8E5D52;
+        font-family: var(--fontPadrao);
+        color: var(--colorPadrao);
+    }
+    
+    .maxWidth {
+        max-width: 120rem ;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .top-header {
+        border-bottom: .5px solid var(--colorPadrao);
+    }
+    .top-header-img {
+        display:  flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.6rem 0;
+    }
+    
+    .icon-menu {
+        font-size: 3rem;
+        color: var(--colorPadrao);
+        cursor: pointer;
+    }
+    
+    #menu {
+        display: none;
+    }
+    
+    .top-header-nav ul, ol {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    .top-header-nav a {
+        padding: 1.6rem;
+        display: block;
+        color: var(--colorPadrao);
+        text-decoration: none;
+    }
+    
+    .top-header-nav a:hover {
+        background-color: color-mix(in srgb, var(--colorPadrao), transparent 80%);
+    }
+    
+    .container-balleBoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8rem;
+        padding-bottom: 5rem ;
+    }
+    
+    .container-balleBoot-text {
+        text-align: center;
+    }
+    
+    .container-balleBoot-title {
+        font-family: var(--fontTitles);
+        font-size: 3.6rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .container-balleBoot-subTitle {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .container-balleBoot-btn {
+        display: inline-block;
+        background-color: var(--colorPadrao);
+        padding: 1.4rem 2.5rem;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0,0,0 0.25);
+    }
+    
+    .container-balleBoot-btn  {
+        text-decoration: none;
+        color: var(--colorSecondary);
+    }
+    
+    .container-balleBoot-img img {
+        width: 30rem;
+    }
+    
+    .container-final {
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+    
+    .container-final-title {
+        padding-top: 5rem;
+        padding-bottom: 2.8rem;
+        border-top: .5px solid var(--colorPadrao);
+        display: inline-block;
+    }
+    
+    .container-final li {
+        padding-bottom: 2rem;
+    }
+    .rodaPe {
+        padding: 2.5rem;
+    }
+    
+    .rodaPe {
+        border-top: .5px solid var(--colorPadrao);
+    }
+    .rodaPe-img img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
